@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+   //While Loop IN C
    int i = 0;
    while (i<10)
    {
