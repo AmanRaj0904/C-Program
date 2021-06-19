@@ -10,7 +10,7 @@ int main()
     // Typecasting is a way to convert one data type into another one. It is also known as data conversion or type conversion.
 
     // Two Types::
-    // 1) Implicit Type::conversion of datatype Without oosing their Meaning
+    // 1) Implicit Type::conversion of datatype Without loosing their Meaning
 
     // 2) Explicit Type :: Doing Change forcefully By porgrammmer...user define Conversion
 
