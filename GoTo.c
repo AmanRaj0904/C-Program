@@ -20,7 +20,7 @@ int main()
             printf("Enter a Number ||  enter 0 to exit       ");
             scanf("%d", &num);
             if (num == 0)
-            {
+            { 
 
                 // break;
                 goto end;
