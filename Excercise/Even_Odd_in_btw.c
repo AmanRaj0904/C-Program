@@ -10,11 +10,11 @@ int main()
     {
         if (i % 2 == 0)
         {
-            printf("Even No is %d = \n", i);
+            printf("Even No is %d  \n", i);
         }
         else
         {
-            printf("Odd No is %d = \n", i);
+            printf("Odd No is %d \n", i);
         }
     }
 }
