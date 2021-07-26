@@ -1,19 +1,15 @@
 #include <stdio.h>
-void sonu();
+int sonu(int a,int b);
 int main()
 {
-    sonu();
+    int a, b, c;
+    a = 50;
+    b = 50;
+    c = sum(a, b);
+    printf("The Sum is = %d \n", c);
     return 0;
 }
-void sonu()
+int sum(int a, int b)
 {
-    int a, b, c, sum;
-    printf("Enter a  number");
-    scanf("%d", &a);
-    printf("Enter second  number");
-    scanf("%d", &b);
-    printf("Enter third number");
-    scanf("%d", &c);
-    sum = a + b + c;
-    printf("the sum of three no is %d", sum);
+    return a + b;
 }
