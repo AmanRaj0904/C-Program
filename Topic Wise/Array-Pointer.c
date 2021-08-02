@@ -3,14 +3,14 @@ int main()
 {
 
     int arr[]= {1,2,3,4,5,6,7};
-    // int a = 20;
-    // int *ptr = &a;
-    // printf("%d\n", &a);
-    // printf("%d\n", ptr);
-    // ptr++;
-    // printf("%d\n",ptr);
-    // printf("%d\n",ptr+2);
-    // printf("%d\n",ptr-1);
+    int a = 20;
+    int *ptr = &a;
+    printf("%d\n", &a);
+    printf("%d\n", ptr);
+    ptr++;
+    printf("%d\n",ptr);
+    printf("%d\n",ptr+2);
+    printf("%d\n",ptr-1);
     // in this address is incrementing or decrementing as per the data type or viceversha::: 
 
 
