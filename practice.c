@@ -1,9 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
+int changeval(int *x);
 int main()
 {
-    char *s1;
-    char far *s2;
-    char huge *s3;
-    printf("%d, %d, %d\n", sizeof(s1), sizeof(s2), sizeof(s3));
+    int a = 20;
+    printf("The Original Value of a is %d\n", a);
+    changeval(&a);
+    printf("The Value of a After Change is  %d\n", a);
+    return 0;
+}
+int changeval(int *x)
+{ 
+    *x = 123;
     return 0;
 }
