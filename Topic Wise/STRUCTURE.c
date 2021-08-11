@@ -6,10 +6,13 @@ struct  student
     int id;
     int marks;
     char fav_char;
-}s1;
+}s1; //Global Variable
 
 int main()
 {  
+    struct student s1; //Local Variable
+    
+    
     s1.name[10];
     s1.id=20;
     s1.marks=80;
