@@ -25,7 +25,7 @@ int main()
     }
 
       printf("::::::::::::::::::::::::::::::::::::::::::\n\n");
-    for (int i = 0; i < 3; i++) //Loop starting From Zero Beacuse Array Start From Zero
+    for (int i = 0; i < 3; i++) //Loop starting From Zero Beacuse Array index Start From Zero
     {
         printf("Details of the %d Drivers\n",i);
         printf("::::::::::::::::::::::::::::::::::\n\n");
