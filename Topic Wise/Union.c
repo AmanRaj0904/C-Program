@@ -8,7 +8,7 @@ union Student
     char fav_char;
 };
 
-int main()
+  int main()
 {
     union Student s1;
     strcpy(s1.name, "Aman Raj");
