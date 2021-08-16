@@ -22,5 +22,12 @@ int main()
         printf("The Value At Location %d is = %d\n", i, ptr[i]);
     }
     // if We exceed the Size of Loop Then It Will Return Garbage Values
+
+
+
+    //if We Print the Value of The Array Without Entering The Value then It Will Print The its Default value Which is ZERO.
+
+    
+     
     return 0;
 }
