@@ -10,6 +10,6 @@ int main()
 }
 int changeval(int *x)
 { 
-    *x = 123;
+    *x = 589;
     return 0;
 }
