@@ -8,7 +8,7 @@ int main()
     // Allocating Memory on Runtime
     printf("Enter The Size od Array\n");
     scanf("%d", &n); //Runtime Allocation
-    ptr = (int *)malloc(n * sizeof(int));
+    ptr = (int *)malloc(n * sizeof(int));  //Here We TypeCasted Malloc beacuse it Return Void Pointer typecasted to Integer
     // Entering The Value  in the dynamic array Using Loop
     for (int i = 0; i < n; i++)
     {
