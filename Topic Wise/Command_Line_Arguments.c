@@ -8,6 +8,6 @@ int main(int argc, char const *argv[])
     }
 
     return 0;
-    // write This Command In terminal
-    // .\Command_Line_Arguments
+    // write This Command In terminal 
+    // .\Command_Line_Arguments  name roll 12 23 45 67
 }
